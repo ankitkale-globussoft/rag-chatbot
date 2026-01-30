@@ -4,7 +4,7 @@ from chain import create_rag_chain
 vectorstore = load_vector_store()
 ragchain = create_rag_chain(vectorstore)
 
-querry = "can you find what is line number 13 in notes.txt"
+querry = "what is authentication"
 
 result = ragchain(querry)
 
